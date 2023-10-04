@@ -1,0 +1,58 @@
+:root{
+    --baseColor:rgb(40, 40, 44);
+}
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Slab, Arial;
+    color: white;
+    width: calc(100% - 15px);
+    height: 100px;
+    background-color: var(--baseColor);
+}
+
+.authorText{
+    width: auto;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.contactPerson{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contactPerson ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.accountContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+    text-decoration: none;
+}
+.accountContainer img{
+    width: 25px;
+    height: 25px;
+}
+
+.accountContainer a{
+    color: white;
+}
+
+ul .first, ul .second{
+    display: flex;
+    column-gap: 10px;
+    flex-direction: row;
+}
+

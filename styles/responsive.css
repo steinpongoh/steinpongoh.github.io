@@ -1,0 +1,160 @@
+@media only screen and (max-width:1024px) {
+    .background {
+        width: 75%;
+    }
+
+    .firstContent h1 {
+        font-size: 40px;
+    }
+
+    .firstContent h2 {
+        font-size: 15px;
+    }
+
+    body {
+        background-position-x: -200px;
+    }
+
+    .aside {
+        flex-direction: column;
+        ;
+    }
+
+
+}
+
+@media only screen and (max-width:375px) {
+    .firstContent h1 {
+        font-size: 30px;
+    }
+
+    .firstContent h2 {
+        font-size: 10px;
+    }
+
+    .nextPageButton button {
+        width: 34px;
+        height: 22px;
+        background-size: 25px;
+    }
+}
+
+
+
+@media only screen and (max-width:690px) {
+    .asideImage {
+        background-position-x: -50px;
+    }
+
+    .maps {
+        background-position-x: -50px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .asideImage {
+        background-position-x: -100px;
+    }
+
+    .maps {
+        background-position-x: -200px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contactPerson ul{
+        flex-direction: row;
+    }
+    ul .first, ul .second{
+        flex-direction: column;
+        column-gap: 20px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .articleContainer {
+        flex-direction: column;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .aside {
+        flex-direction: column;
+        margin-top: -10px;
+        width: calc(100% - 30px);
+    }
+
+    .asideImage {
+        width: 55%;
+    }
+
+    .asideContent {
+        flex-direction: row;
+    }
+
+    .maps {
+        height: 500px;
+    }
+
+    .contentContainer h1 {
+        font-size: 30px;
+    }
+
+    .contentContainer h2 {
+        font-size: 10px;
+    }
+    .navModel-1 {
+        display: none;
+    }
+
+    .menuButton {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .backgroundLinow {
+        background-position-x: -200px;
+    }
+
+    .background {
+        width: 100%;
+    }
+
+    .contentContainer h1 {
+        font-size: 30px;
+    }
+
+    .contentContainer h2 {
+        font-size: 10px;
+    }
+
+    .asideContent {
+        flex-direction: column;
+    }
+
+    .asideImage,
+    .maps {
+        width: auto;
+        background-position-x: 0;
+    }
+
+    .maps {
+        height: 250px;
+    }
+
+    .isi {
+        font-size: 15px;
+    }
+
+    .judul h1 {
+        font-size: 35px;
+    }
+
+    .judul h2 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    font-family: Montserrat, Arial;
+    position: fixed;
+    align-items: center;
+    justify-content: end;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 3;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navActive {
+    background-color: rgb(40, 40, 44);
+}
+
+.navModel-1 {
+    list-style-type: none;
+    display: flex;
+    column-gap: 15px;
+    color: white;
+}
+
+.navModel-1 a {
+    color: white;
+}
+
+.navModel-2 a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuButton {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 25px;
+    border: 1px solid transparent;
+    background-image: url("../assets/menu-icon.png");
+    background-color: transparent;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.menuDetail {
+    font-family: Montserrat, Arial;
+    display: none;
+    position: absolute;
+    align-items: left;
+    justify-content: left;
+    left: -110px;
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 3px rgb(32, 32, 32);
+    transition: 100ms ease-in-out;
+}
+
+.active {
+    display: flex;
+}
+
+
+.navModel-2 {
+    display: flex;
+    position: absolute;
+    align-items: start;
+    flex-direction: column;
+    list-style-type: none;
+    row-gap: 20px;
+    margin-left: -20px;
+    border: 1px black;
+}

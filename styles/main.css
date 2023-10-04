@@ -1,0 +1,124 @@
+:root{
+    --baseColor:rgb(40, 40, 44);
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 50% 50%;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.article{
+    font-family: Josefin Slab, Arial;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+}
+
+.judul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.judul h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.judul h2{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.isi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat, Arial;
+    background-color: white;
+    margin: 10px;
+    width: 480px;
+    height: 820px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.slug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    margin: 10px;
+    background-color: var(--baseColor);
+}
+
+.asideImage{
+    background-color: brown;
+    height: 250px;
+}
+
+.asideImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.asideContent{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.asideContent table{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.asideContent td{
+    height: 25px;
+}
+
+.maps{
+    background-color: brown;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--baseColor);
+}
+.maps img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+

@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 769px;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundLinow {
+    font-family: Montserrat, Arial;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 769px;
+    background: url("../assets/danau-linow.jpg") no-repeat;
+    background-size: cover;
+}
+
+.voidBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.contentContainer{
+    width: 75%;
+}
+
+.backgroundLinow h1,
+.backgroundLinow h2 {
+    color: white;
+}
+
+.backgroundLinow h1 {
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.backgroundLinow h2 {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.backgroundLinow .headerBackground,
+.backgroundLinow {
+    animation: transitionIn 1s;
+}
+
+.nextPageButton {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.nextPageButton button {
+    width: 60px;
+    height: 30px;
+    background-position: center;
+    background-image: url("../assets/next-icon.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 1px transparent;
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
